@@ -111,7 +111,7 @@ static NSString *configPath = nil;
 
 NSString* generateIPAPath(NSString* displayName, NSString* version, NSString* minOS) {
     NSString* ipapath = [configurationDictionary objectForKey:@"FileRegex"];
-    //NSString* crackername = [configurationDictionary objectForKey:@"rackername"];
+    //NSString* crackername = [configurationDictionary objectForKey:@"crackername"];
     ipapath = [ipapath stringByReplacingOccurrencesOfString:@"$appname" withString:displayName];
     ipapath = [ipapath stringByReplacingOccurrencesOfString:@"$appversion" withString:version];
     

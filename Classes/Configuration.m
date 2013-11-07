@@ -48,7 +48,7 @@ static NSString *configPath = nil;
     }
     [data writeToFile:@"/var/lib/clutch/support.plist" atomically:YES];
     
-    printf("Clutch configuration\n===============\n");
+    printf("Clutch configuration\n===============\n 1.3.2-git1");
     
     NSDictionary* supportDictionary = [NSDictionary dictionaryWithContentsOfFile:@"/var/lib/clutch/support.plist"];
     NSMutableDictionary* tempDict = [NSMutableDictionary dictionaryWithDictionary:configurationDictionary];

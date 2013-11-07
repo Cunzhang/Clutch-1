@@ -31,7 +31,7 @@ int compression_level;
 #define FAT_CIGAM 0xbebafeca
 #define MH_MAGIC 0xfeedface
 
-#define CLUTCH_VERSION "Clutch-1.3.1"
+#define CLUTCH_VERSION "Clutch-1.3.2"
 #define CLUTCH_BUILD 13104
 #define CLUTCH_DEV 0
 

@@ -2,7 +2,7 @@
 //  install.m
 //  Clutch
 //
-//  Created by Terence Tan on 15/10/13.
+//  Created by ttwj on 15/10/13.
 //
 //
 

@@ -161,7 +161,7 @@ int main(int argc, char *argv[]) {
     } else if (strncmp(argv[1], "-c", 2) == 0) {
         [ClutchConfiguration setupConfig];
     }
-    else if (strncmp(argv[1], "-i", 2) == 0) {
+  else if (strncmp(argv[1], "-i", 2) == 0) {
         NSString *ipa = [NSString stringWithUTF8String:argv[2]];
         printf("one \n");
         NSString *binary = [NSString stringWithUTF8String:argv[3]];
